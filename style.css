@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blueviolet;
+}
+h1{
+    display: inline-block;
+    margin-right: 700px;
+    color: azure;
+    margin-left: 40px;
+    padding: 30px;
+}
+nav{
+    display: inline-block;
+    margin-right: 60px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    color: azure;
+    position: relative;
+    transition-property: all;
+    transition-delay: 0.2s;
+}
+a{
+    color: azure;
+}
+.Porsche{
+    display: inline-block;
+}
+.Audi{
+    margin-left: 160px;
+    display: inline-block;
+}
+.porsche{
+    height: 300px;
+    width: 400px;
+}
+.audi{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+}
+li:hover{
+    background-color: rgb(160, 86, 230);
+    color: black;
+}
