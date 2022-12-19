@@ -50,3 +50,37 @@ li:hover{
     background-color: rgb(160, 86, 230);
     color: black;
 }
+.animationporsche{
+    position: absolute;
+    animation-name: movePorsche;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.animationaudi{
+    position: absolute;
+    animation-name: moveAudi;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes movePorsche{
+    from{
+        right: 10px;
+    }
+    to{
+        right: 1000px;
+    }
+}
+@keyframes moveAudi{
+    from{
+        left: 10px;
+    }
+    to{
+        left: 1000px;
+    }
+}
